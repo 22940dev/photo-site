@@ -1,0 +1,42 @@
+.contact-page {
+    margin-top: 40px;
+    background-color: #f7f7f7;
+    height: auto;
+}
+
+.silh {
+    position: relative;
+    left: 25%;
+    right:25%;
+    width: 450px;    
+    text-align: right;
+    margin-top: 60px;
+    
+}
+
+.side-image {
+    margin-top: 60px;
+    
+}
+
+.contact-form {
+    margin-top: 60px;
+   
+    
+}
+
+@media screen and (max-width: 941px) {
+    .contact-form {
+        margin-left: 25%;
+    }
+}
+
+.share-icons {
+    margin-right: 20px;
+}
+
+.email-link {
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+

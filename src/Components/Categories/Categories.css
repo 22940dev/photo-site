@@ -1,0 +1,129 @@
+.flex-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .flex-container > div {
+    margin-right: -50px !important;
+    margin-left: -50px !important;
+    height: 600px;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+  }
+
+
+
+   .labels >img {
+    
+    padding: 5px;
+    border-radius: 18px;
+    
+ 
+    
+    /* max-width: 100%;
+    height: auto; */
+  
+   }
+
+
+  
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .image {
+    /* border-radius: 10px; */
+    box-shadow: 8px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.80;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .parent:hover span {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .text:hover {
+    color: #000;
+ }
+
+
+.categories-container {
+  margin-top: 170px;
+  
+}
+
+
+.centered {
+  letter-spacing: 6px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 32px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .centered:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+} */
+
+.link {
+  color: #FFF;
+}
+.link:hover {
+   color: #fff;
+}
+
+
+.instagram {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  margin-bottom: -25px;
+}   
+

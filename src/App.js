@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component } from 'react';
 import './App.css';
+import Layout from './Layout/Layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from 'react-router-dom';
+import Abstract from './Components/Abstract/Abstract';
+import Scenic from './Components/Scenic/Scenic';
+import Street from './Components/Street/Street';
+import { Route, Switch} from 'react-router-dom';
+import Categories from './Components/Categories/Categories';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import StickyFooter from 'react-sticky-footer';
+import Footer from './Components/Footer/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+
+  render () {
+    return (
+      <div className="app">
+        <BrowserRouter>
+        <Layout></Layout>
+    
+        <Switch>  
+                    <Route exact path="/"   component={Categories}></Route>
+                    <Route path="/abstract" component={Abstract}></Route>
+                    <Route path="/scenic"   component={Scenic}></Route>
+                    <Route path="/street"   component={Street}></Route>
+                    <Route path="/about"    component={About}></Route>
+                    <Route path="/contact"  component={Contact}></Route>
+                    
+              </Switch>
+              {/* <Footer></Footer> */}
+         
+
+
+        </BrowserRouter>
+
+      </div>
+    );
+  }
+ 
 }
 
 export default App;
