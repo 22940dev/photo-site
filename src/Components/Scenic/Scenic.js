@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 // import {gandhi, leaf, run} from '../../Assets/images';
 import Gallery from 'react-grid-gallery';
 import axios from 'axios';
+import './Scenic.css'
 
 class Scenic extends Component {
 
@@ -42,13 +43,13 @@ class Scenic extends Component {
 
     render() {
         return (
-            <div>
+            <div className="scenic">
                
             <div className="galleryContainer">
             <Gallery images={this.state.image_array} 
                      enableImageSelection={false} 
                      backdropClosesModal={true} 
-                     margin={40}
+                     margin={10}
                      rowHeight={220}
                      showLightboxThumbnails={true}
                      thumbnailStyle={this.styleSmall}/>

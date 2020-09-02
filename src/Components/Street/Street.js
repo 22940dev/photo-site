@@ -48,7 +48,7 @@ class Street extends Component {
             <Gallery images={this.state.image_array} 
                      enableImageSelection={false} 
                      backdropClosesModal={true} 
-                     margin={40}
+                     margin={10}
                      rowHeight={220}
                      showLightboxThumbnails={true}
                      thumbnailStyle={this.styleSmall}/>

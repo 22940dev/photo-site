@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component }  from 'react';
 // import {gandhi, leaf, run} from '../../Assets/images';
 import Gallery from 'react-grid-gallery';
 import axios from 'axios';
@@ -63,7 +63,7 @@ class Abstract extends Component {
                  <Gallery images={this.state.image_array} 
                           enableImageSelection={false} 
                           backdropClosesModal={true} 
-                          margin={40}
+                          margin={10}
                           rowHeight={220}
                           showLightboxThumbnails={true}
                           thumbnailStyle={this.styleSmall}
