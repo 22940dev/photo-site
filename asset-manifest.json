@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/photography/static/css/main.212f8ce1.chunk.css",
-    "main.js": "/photography/static/js/main.74eaa769.chunk.js",
-    "main.js.map": "/photography/static/js/main.74eaa769.chunk.js.map",
+    "main.css": "/photography/static/css/main.e747ee41.chunk.css",
+    "main.js": "/photography/static/js/main.3590df4a.chunk.js",
+    "main.js.map": "/photography/static/js/main.3590df4a.chunk.js.map",
     "runtime-main.js": "/photography/static/js/runtime-main.89b0449f.js",
     "runtime-main.js.map": "/photography/static/js/runtime-main.89b0449f.js.map",
     "static/css/2.c2d3b1f5.chunk.css": "/photography/static/css/2.c2d3b1f5.chunk.css",
-    "static/js/2.2f473c67.chunk.js": "/photography/static/js/2.2f473c67.chunk.js",
-    "static/js/2.2f473c67.chunk.js.map": "/photography/static/js/2.2f473c67.chunk.js.map",
+    "static/js/2.e45952e8.chunk.js": "/photography/static/js/2.e45952e8.chunk.js",
+    "static/js/2.e45952e8.chunk.js.map": "/photography/static/js/2.e45952e8.chunk.js.map",
     "index.html": "/photography/index.html",
-    "precache-manifest.983d04db874ae52905a485064eab9732.js": "/photography/precache-manifest.983d04db874ae52905a485064eab9732.js",
+    "precache-manifest.26467e7d91d125c28c08b965577d1869.js": "/photography/precache-manifest.26467e7d91d125c28c08b965577d1869.js",
     "service-worker.js": "/photography/service-worker.js",
     "static/css/2.c2d3b1f5.chunk.css.map": "/photography/static/css/2.c2d3b1f5.chunk.css.map",
-    "static/css/main.212f8ce1.chunk.css.map": "/photography/static/css/main.212f8ce1.chunk.css.map",
-    "static/js/2.2f473c67.chunk.js.LICENSE.txt": "/photography/static/js/2.2f473c67.chunk.js.LICENSE.txt",
+    "static/css/main.e747ee41.chunk.css.map": "/photography/static/css/main.e747ee41.chunk.css.map",
+    "static/js/2.e45952e8.chunk.js.LICENSE.txt": "/photography/static/js/2.e45952e8.chunk.js.LICENSE.txt",
     "static/media/gandhi.jpeg": "/photography/static/media/gandhi.68c31ad8.jpeg",
     "static/media/hari.jpg": "/photography/static/media/hari.3d3e3e09.jpg",
     "static/media/instagram-logo.png": "/photography/static/media/instagram-logo.4af42c87.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.89b0449f.js",
     "static/css/2.c2d3b1f5.chunk.css",
-    "static/js/2.2f473c67.chunk.js",
-    "static/css/main.212f8ce1.chunk.css",
-    "static/js/main.74eaa769.chunk.js"
+    "static/js/2.e45952e8.chunk.js",
+    "static/css/main.e747ee41.chunk.css",
+    "static/js/main.3590df4a.chunk.js"
   ]
 }
