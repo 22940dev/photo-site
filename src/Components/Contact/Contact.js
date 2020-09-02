@@ -71,6 +71,7 @@ class Contact extends Component {
                                 <button type="submit"  class="btn btn-primary w-40">Submit</button>
                                 <br></br>
                                 <div>
+                                    <br></br>
                                 <a className="email-link" href = "mailto: haripalbaluja.208@gmail.com">MAIL ME HERE</a>
                                 </div>
                             </form>
