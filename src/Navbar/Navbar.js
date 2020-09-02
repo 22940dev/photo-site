@@ -14,13 +14,13 @@ class NavBar extends Component {
                    <div className="header">
                    
                         <div className="heading">
-                            <Link to="/photography"  style={{ textDecoration: 'none', color: 'black' }}> 
+                            <Link to="/"  style={{ textDecoration: 'none', color: 'black' }}> 
                             <p> HARIPAL BALUJA </p>
                             </Link>
                         </div>
                         
                         <div className="subheading">
-                            <Link to="/photography"  style={{ textDecoration: 'none', color: 'black' }}>
+                            <Link to="/"  style={{ textDecoration: 'none', color: 'black' }}>
                             <p>PHOTOGRAPHY</p>
                             </Link>
                         </div>
