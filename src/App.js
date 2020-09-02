@@ -19,11 +19,11 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={'https://haripalbaluja.github.io/photography/'}>
         <Layout></Layout>
     
         <Switch>  
-                    <Route   component={Categories}></Route>
+                    <Route exact path="/"   component={Categories}></Route>
                     <Route path="/abstract" component={Abstract}></Route>
                     <Route path="/scenic"   component={Scenic}></Route>
                     <Route path="/street"   component={Street}></Route>
