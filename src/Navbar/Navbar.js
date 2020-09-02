@@ -45,9 +45,7 @@ class NavBar extends Component {
                         <Nav.Link  href="abstract"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
                         </Nav>    */}
                         <Nav className="ml-auto mr-auto">
-                        <Link to="/abstract"  style={{ textDecoration: 'none', color: 'black' }}>    
-                        <Nav.Link  href="#"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
-                        </Link>
+                        <Nav.Link  href="abstract"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
                         <Nav.Link  href="scenic"><h4 className="navlinks">SCENIC</h4></Nav.Link>
                         <Nav.Link  href="street"><h4 className="navlinks">STREET</h4></Nav.Link>
                         <Nav.Link  href="contact"><h4 className="navlinks">CONTACT</h4></Nav.Link>
