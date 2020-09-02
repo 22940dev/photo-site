@@ -45,11 +45,11 @@ class NavBar extends Component {
                         <Nav.Link  href="abstract"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
                         </Nav>    */}
                         <Nav className="ml-auto mr-auto">
-                        <Nav.Link  href="abstract"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
-                        <Nav.Link  href="scenic"><h4 className="navlinks">SCENIC</h4></Nav.Link>
-                        <Nav.Link  href="street"><h4 className="navlinks">STREET</h4></Nav.Link>
-                        <Nav.Link  href="contact"><h4 className="navlinks">CONTACT</h4></Nav.Link>
-                        <Nav.Link  href="about"><h4 className="navlinks">ABOUT</h4></Nav.Link>
+                        <Link to='/photography/abstract' href="abstract"><h4 className="navlinks">ABSTRACT</h4></Link>
+                        <Link to='/photography/scenic'><h4 className="navlinks">SCENIC</h4></Link>
+                        <Link to='/photography/street'><h4 className="navlinks">STREET</h4></Link>
+                        <Link to='/photography/contact'><h4 className="navlinks">CONTACT</h4></Link>
+                        <Link to='/photography/about'><h4 className="navlinks">ABOUT</h4></Link>
                         
                        
                     </Nav>
