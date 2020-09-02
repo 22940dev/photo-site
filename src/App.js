@@ -23,7 +23,7 @@ class App extends Component {
         <Layout></Layout>
     
         <Switch>  
-                    <Route exact path="/photography"   component={Categories}></Route>
+                    <Route exact path="/"   component={Categories}></Route>
                     <Route path="/abstract" component={Abstract}></Route>
                     <Route path="/scenic"   component={Scenic}></Route>
                     <Route path="/street"   component={Street}></Route>
