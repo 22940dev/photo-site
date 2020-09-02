@@ -19,11 +19,11 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <BrowserRouter basename={'https://haripalbaluja.github.io/photography'}>
+        <BrowserRouter>
         <Layout></Layout>
     
         <Switch>  
-                    <Route exact path="/"   component={Categories}></Route>
+                    <Route path="/photography"   component={Categories}></Route>
                     <Route path="/abstract" component={Abstract}></Route>
                     <Route path="/scenic"   component={Scenic}></Route>
                     <Route path="/street"   component={Street}></Route>
