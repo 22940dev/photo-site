@@ -22,7 +22,7 @@ class App extends Component {
         <BrowserRouter>
         <Layout></Layout>
     
-        <HashRouter>  
+        <Switch>  
                     <Route exact path="/photography"   component={Categories}></Route>
                     <Route path="/photography/abstract" component={Abstract}></Route>
                     <Route path="/photography/scenic"   component={Scenic}></Route>
@@ -30,7 +30,7 @@ class App extends Component {
                     <Route path="/photography/about"    component={About}></Route>
                     <Route path="/photography/contact"  component={Contact}></Route>
                     
-              </HashRouter>
+              </Switch>
               {/* <Footer></Footer> */}
          
 
