@@ -19,7 +19,7 @@ class App extends Component {
   render () {
     return (
       <div className="app">
-        <BrowserRouter basename={'https://haripalbaluja.github.io/photography/'}>
+        <BrowserRouter basename={'https://haripalbaluja.github.io/photography'}>
         <Layout></Layout>
     
         <Switch>  
