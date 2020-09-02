@@ -69,6 +69,10 @@ class Contact extends Component {
                                 </div>
 
                                 <button type="submit"  class="btn btn-primary w-40">Submit</button>
+                                <br></br>
+                                <div>
+                                <a className="email-link" href = "mailto: haripalbaluja.208@gmail.com">MAIL ME HERE</a>
+                                </div>
                             </form>
                                 {/*      */}
                                 {/* <div className="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -77,10 +81,7 @@ class Contact extends Component {
                                 <a className="a2a_button_twitter share-icons"></a>
                                 <a className="a2a_button_email share-icons"></a>
                                 </div> */}
-                                <br></br>
-                                <div>
-                                <a className="email-link" href = "mailto: haripalbaluja.208@gmail.com">MAIL ME HERE</a>
-                                </div>
+
                         </div>
                     </div>
                 </div>
