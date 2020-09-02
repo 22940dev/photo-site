@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Abstract from './Components/Abstract/Abstract';
 import Scenic from './Components/Scenic/Scenic';
 import Street from './Components/Street/Street';
-import { Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 import Categories from './Components/Categories/Categories';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
@@ -22,7 +22,7 @@ class App extends Component {
         <BrowserRouter>
         <Layout></Layout>
     
-        <Switch>  
+        <HashRouter>  
                     <Route exact path="/photography"   component={Categories}></Route>
                     <Route path="/photography/abstract" component={Abstract}></Route>
                     <Route path="/photography/scenic"   component={Scenic}></Route>
@@ -30,7 +30,7 @@ class App extends Component {
                     <Route path="/photography/about"    component={About}></Route>
                     <Route path="/photography/contact"  component={Contact}></Route>
                     
-              </Switch>
+              </HashRouter>
               {/* <Footer></Footer> */}
          
 
