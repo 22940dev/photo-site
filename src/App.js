@@ -24,11 +24,11 @@ class App extends Component {
     
         <Switch>  
                     <Route path="/photography"   component={Categories}></Route>
-                    <Route path="/abstract" component={Abstract}></Route>
-                    <Route path="/scenic"   component={Scenic}></Route>
-                    <Route path="/street"   component={Street}></Route>
-                    <Route path="/about"    component={About}></Route>
-                    <Route path="/contact"  component={Contact}></Route>
+                    <Route path="/photography/abstract" component={Abstract}></Route>
+                    <Route path="/photography/scenic"   component={Scenic}></Route>
+                    <Route path="/photography/street"   component={Street}></Route>
+                    <Route path="/photography/about"    component={About}></Route>
+                    <Route path="/photography/contact"  component={Contact}></Route>
                     
               </Switch>
               {/* <Footer></Footer> */}
