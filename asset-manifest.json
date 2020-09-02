@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/react-frontend/static/css/main.212f8ce1.chunk.css",
-    "main.js": "/react-frontend/static/js/main.ef1ae8d3.chunk.js",
-    "main.js.map": "/react-frontend/static/js/main.ef1ae8d3.chunk.js.map",
-    "runtime-main.js": "/react-frontend/static/js/runtime-main.5e295304.js",
-    "runtime-main.js.map": "/react-frontend/static/js/runtime-main.5e295304.js.map",
-    "static/css/2.c2d3b1f5.chunk.css": "/react-frontend/static/css/2.c2d3b1f5.chunk.css",
-    "static/js/2.5fe94981.chunk.js": "/react-frontend/static/js/2.5fe94981.chunk.js",
-    "static/js/2.5fe94981.chunk.js.map": "/react-frontend/static/js/2.5fe94981.chunk.js.map",
-    "index.html": "/react-frontend/index.html",
-    "precache-manifest.39319e7e7914a8d56a11fb2b4fd8f765.js": "/react-frontend/precache-manifest.39319e7e7914a8d56a11fb2b4fd8f765.js",
-    "service-worker.js": "/react-frontend/service-worker.js",
-    "static/css/2.c2d3b1f5.chunk.css.map": "/react-frontend/static/css/2.c2d3b1f5.chunk.css.map",
-    "static/css/main.212f8ce1.chunk.css.map": "/react-frontend/static/css/main.212f8ce1.chunk.css.map",
-    "static/js/2.5fe94981.chunk.js.LICENSE.txt": "/react-frontend/static/js/2.5fe94981.chunk.js.LICENSE.txt",
-    "static/media/gandhi.jpeg": "/react-frontend/static/media/gandhi.68c31ad8.jpeg",
-    "static/media/hari.jpg": "/react-frontend/static/media/hari.3d3e3e09.jpg",
-    "static/media/instagram-logo.png": "/react-frontend/static/media/instagram-logo.4af42c87.png",
-    "static/media/leaf.jpeg": "/react-frontend/static/media/leaf.e649d596.jpeg",
-    "static/media/run.jpeg": "/react-frontend/static/media/run.650a8fb7.jpeg",
-    "static/media/sil.jpeg": "/react-frontend/static/media/sil.da1d052f.jpeg"
+    "main.css": "/photography/static/css/main.212f8ce1.chunk.css",
+    "main.js": "/photography/static/js/main.992084f9.chunk.js",
+    "main.js.map": "/photography/static/js/main.992084f9.chunk.js.map",
+    "runtime-main.js": "/photography/static/js/runtime-main.89b0449f.js",
+    "runtime-main.js.map": "/photography/static/js/runtime-main.89b0449f.js.map",
+    "static/css/2.c2d3b1f5.chunk.css": "/photography/static/css/2.c2d3b1f5.chunk.css",
+    "static/js/2.5fe94981.chunk.js": "/photography/static/js/2.5fe94981.chunk.js",
+    "static/js/2.5fe94981.chunk.js.map": "/photography/static/js/2.5fe94981.chunk.js.map",
+    "index.html": "/photography/index.html",
+    "precache-manifest.1471ac7fcd0f680661df4129c9d9437c.js": "/photography/precache-manifest.1471ac7fcd0f680661df4129c9d9437c.js",
+    "service-worker.js": "/photography/service-worker.js",
+    "static/css/2.c2d3b1f5.chunk.css.map": "/photography/static/css/2.c2d3b1f5.chunk.css.map",
+    "static/css/main.212f8ce1.chunk.css.map": "/photography/static/css/main.212f8ce1.chunk.css.map",
+    "static/js/2.5fe94981.chunk.js.LICENSE.txt": "/photography/static/js/2.5fe94981.chunk.js.LICENSE.txt",
+    "static/media/gandhi.jpeg": "/photography/static/media/gandhi.68c31ad8.jpeg",
+    "static/media/hari.jpg": "/photography/static/media/hari.3d3e3e09.jpg",
+    "static/media/instagram-logo.png": "/photography/static/media/instagram-logo.4af42c87.png",
+    "static/media/leaf.jpeg": "/photography/static/media/leaf.e649d596.jpeg",
+    "static/media/run.jpeg": "/photography/static/media/run.650a8fb7.jpeg",
+    "static/media/sil.jpeg": "/photography/static/media/sil.da1d052f.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e295304.js",
+    "static/js/runtime-main.89b0449f.js",
     "static/css/2.c2d3b1f5.chunk.css",
     "static/js/2.5fe94981.chunk.js",
     "static/css/main.212f8ce1.chunk.css",
-    "static/js/main.ef1ae8d3.chunk.js"
+    "static/js/main.992084f9.chunk.js"
   ]
 }
