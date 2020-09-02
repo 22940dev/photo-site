@@ -18,7 +18,7 @@ class Abstract extends Component {
     }
 
     loadData () {
-        axios.get('http://localhost:8000/api/abstract/')
+        axios.get('https://gallery-backend-haripal.herokuapp.com/api/abstract/')
         .then( response => {
             this.setState({image_array : response.data})
         
