@@ -45,11 +45,11 @@ class NavBar extends Component {
                         <Nav.Link  href="abstract"><h4 className="navlinks">ABSTRACT</h4></Nav.Link>
                         </Nav>    */}
                         <Nav className="ml-auto mr-auto">
-                        <Link to='/photography/abstract' style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">ABSTRACT</h4></Link>
-                        <Link to='/photography/scenic'   style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">SCENIC</h4></Link>
-                        <Link to='/photography/street'   style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">STREET</h4></Link>
-                        <Link to='/photography/contact'  style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">CONTACT</h4></Link>
-                        <Link to='/photography/about'    style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">ABOUT</h4></Link>
+                        <Link to='/abstract' style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">ABSTRACT</h4></Link>
+                        <Link to='/scenic'   style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">SCENIC</h4></Link>
+                        <Link to='/street'   style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">STREET</h4></Link>
+                        <Link to='/contact'  style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">CONTACT</h4></Link>
+                        <Link to='/about'    style={{ textDecoration: 'none', color: 'black' }}><h4 className="navlinks">ABOUT</h4></Link>
                         
                        
                     </Nav>
