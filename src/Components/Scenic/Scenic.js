@@ -16,7 +16,7 @@ class Scenic extends Component {
     }
 
     loadData () {
-        axios.get('https://gallery-backend-haripal.herokuapp.com/api/scenic/')
+        axios.get('http://localhost:8000/api/scenic/')
         .then( response => {
             this.setState({image_array : response.data})
         

@@ -15,7 +15,7 @@ class Street extends Component {
     }
 
     loadData () {
-        axios.get('https://gallery-backend-haripal.herokuapp.com/api/street/')
+        axios.get('http://localhost:8000/api/street/')
         .then( response => {
             this.setState({image_array : response.data})
         
