@@ -33,6 +33,7 @@ class Scenic extends Component {
         return ({
            
            width: '100%',
+           height: '100%',
            backgroundColor: 'none',
       
            
