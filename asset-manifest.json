@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/photography/static/css/main.873b54dc.chunk.css",
+    "main.css": "/photography/static/css/main.84e565cd.chunk.css",
     "main.js": "/photography/static/js/main.3d268b36.chunk.js",
     "main.js.map": "/photography/static/js/main.3d268b36.chunk.js.map",
     "runtime-main.js": "/photography/static/js/runtime-main.89b0449f.js",
@@ -9,10 +9,10 @@
     "static/js/2.3be010bf.chunk.js": "/photography/static/js/2.3be010bf.chunk.js",
     "static/js/2.3be010bf.chunk.js.map": "/photography/static/js/2.3be010bf.chunk.js.map",
     "index.html": "/photography/index.html",
-    "precache-manifest.c6abee9b48043db63c08dabceba4d8c1.js": "/photography/precache-manifest.c6abee9b48043db63c08dabceba4d8c1.js",
+    "precache-manifest.df259e8761abfa9c8aab93c4da7b0aef.js": "/photography/precache-manifest.df259e8761abfa9c8aab93c4da7b0aef.js",
     "service-worker.js": "/photography/service-worker.js",
     "static/css/2.c2d3b1f5.chunk.css.map": "/photography/static/css/2.c2d3b1f5.chunk.css.map",
-    "static/css/main.873b54dc.chunk.css.map": "/photography/static/css/main.873b54dc.chunk.css.map",
+    "static/css/main.84e565cd.chunk.css.map": "/photography/static/css/main.84e565cd.chunk.css.map",
     "static/js/2.3be010bf.chunk.js.LICENSE.txt": "/photography/static/js/2.3be010bf.chunk.js.LICENSE.txt",
     "static/media/gandhi.jpeg": "/photography/static/media/gandhi.68c31ad8.jpeg",
     "static/media/hari.jpg": "/photography/static/media/hari.3d3e3e09.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.89b0449f.js",
     "static/css/2.c2d3b1f5.chunk.css",
     "static/js/2.3be010bf.chunk.js",
-    "static/css/main.873b54dc.chunk.css",
+    "static/css/main.84e565cd.chunk.css",
     "static/js/main.3d268b36.chunk.js"
   ]
 }
