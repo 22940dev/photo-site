@@ -32,7 +32,7 @@ class Contact extends Component {
     }
 
     postData = () => {
-        axios.post('http://localhost:8000/api/message/', {
+        axios.post('https://gallery-backend-haripal.herokuapp.com/api/message/', {
             name: this.state.name,
             email: this.state.email,
             message: this.state.message
