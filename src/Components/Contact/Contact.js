@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {silhoutte} from '../../Assets/images';
 import './Contact.css';
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 class Contact extends Component {
@@ -12,7 +14,8 @@ class Contact extends Component {
            
                 name: '',
                 email:'',
-                message:''
+                message:'',
+                sucessMessage:''
             
         }
     }
@@ -39,6 +42,7 @@ class Contact extends Component {
         })
         .then((response) => {
             console.log(response)
+            this.setState({name: '', email: '', message: '', sucessMessage : 'Form submitted successfully!'})
         })
     }
 
@@ -69,6 +73,7 @@ class Contact extends Component {
                                 </div>
 
                                 <button type="submit"  class="btn btn-primary w-40">Submit</button>
+                                <span className="text-success">{this.state.sucessMessage}</span>
                                 <br></br>
                                 <div>
                                     <br></br>
