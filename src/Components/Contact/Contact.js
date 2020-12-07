@@ -77,7 +77,7 @@ class Contact extends Component {
                                 <br></br>
                                 <div>
                                     <br></br>
-                                <a className="email-link" href = "mailto: haripalbaluja.208@gmail.com">MAIL ME HERE</a>
+                                <a className="email-link" href = "mailto: haripalbaluja.208@gmail.com">MAIL ME HERE!</a>
                                 </div>
                             </form>
                                 {/*      */}
